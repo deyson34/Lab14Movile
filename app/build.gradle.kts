@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.lab14"
-    compileSdk = 34
+    compileSdk = 35
 
 
     defaultConfig {
@@ -41,7 +41,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5"
+        kotlinCompilerExtensionVersion = "1.5.1"
     }
     packaging {
         resources {
